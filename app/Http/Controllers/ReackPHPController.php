@@ -7,7 +7,7 @@ use Laravel\Lumen\Routing\Controller as BaseController;
 /**
  * ReactPHP框架使用的一些场景
  */
-class Controller extends BaseController
+class ReackPHPController extends BaseController
 {
     
 
