@@ -5,17 +5,19 @@
     "keywords": ["framework", "laravel"],
     "license": "MIT",
     "require": {
-        "php": "^8.0.2",
+        "php": "8.0.2",
         "ext-bcmath": "*",
         "ext-curl": "*",
         "ext-openssl": "*",
         "ext-zip": "*",
+        "aliyuncs/oss-sdk-php": "^2.6",
         "godruoyi/php-snowflake": "^2.2",
         "guzzlehttp/guzzle": "^7.2",
         "iidestiny/laravel-filesystem-oss": "^3.2",
         "jiannei/laravel-enum": "^3.0",
         "jiannei/laravel-response": "^5.2",
         "laravel/framework": "^9.19",
+        "laravel/lumen-framework": "^9.1",
         "laravel/sanctum": "^3.0",
         "laravel/tinker": "^2.7",
         "maatwebsite/excel": "^3.1",
@@ -52,18 +54,9 @@
     },
     "scripts": {
         "post-autoload-dump": [
-            "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
-            "@php artisan package:discover --ansi"
-        ],
-        "post-update-cmd": [
-            "@php artisan vendor:publish --tag=laravel-assets --ansi --force"
-        ],
-        "post-root-package-install": [
-            "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
-        ],
-        "post-create-project-cmd": [
-            "@php artisan key:generate --ansi"
+            "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump"
         ]
+       
     },
     "extra": {
         "laravel": {
