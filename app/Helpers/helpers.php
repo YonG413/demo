@@ -57,8 +57,10 @@ if (!function_exists("ossThumbnail")) {
 }
 
 if (!function_exists("hideName")) {
-
-    function hideName(string $name): bool|string
+    /**
+     *  截取姓名最后一位
+     */
+    function hideName(string $name): string
     {
         if (empty($name)){
             return '';
@@ -71,7 +73,12 @@ if (!function_exists("hideName")) {
     }
 }
 
+
 if(!function_exists("hideIdCard")){
+   
+    /**
+     * 将身份证号码第2位到倒数第2位之间的字符替换成*号
+     */
     function hideIdCard(string $idNumber): string
     {
         $length = strlen($idNumber);
