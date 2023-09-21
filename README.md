@@ -14,6 +14,8 @@
 13 php防止短信轰炸，行为验证码是关键！写出思路设计与具体代码实现   
 14 PHP 防抖（防重复提交）有哪些实现方法，具体代码示例也列出来   
 15 PHP如何在终端打开实现进度条处理数据 ？   
+16 php如何在header增加key，sign，timestamp等      
+17 [guzzlehttp/guzzle]使用起来更优雅
 
 ## Redis实例
 1 用redis发布订阅模式实现批量发送短信   
