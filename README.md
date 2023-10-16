@@ -29,16 +29,6 @@
 5 SQL参数化查询为什么能够防止SQL注入   
 6 慢SQL优化，具体如何优化？   
 
-## golang实例-(原创)   
-1 Go语言片段：通过设置HTTP响应头来解决跨域问题   
-2 go语言如何使用rabbitmq，正常消息，延时消息    
-3 G0lang是 如何实现 多服务器SESSION 共享 的   
-4 http请求超时 ，用Golang是如何解决的
-
-## Doc理论-(原创)   
-1 PHP并发，如何保证数据的一致性,用协程    
-2 ORM为什么这么流行   
-3 为什么说php和mysql是绝配  
 
 ## License   
 
